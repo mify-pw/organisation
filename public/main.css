@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html {
+  font-family: "Roboto", sans-serif;
+  background: url("/public/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  flex: 1 0 auto;
+  align-self: center;
+}
+
+.jumbo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #f2f2f2;
+  text-shadow: 1px 2px 2px #f9f9f9;
+  text-transform: uppercase;
+  font-weight: 300;
+}
